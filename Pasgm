@@ -1,0 +1,39 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int myInt = 10;
+        double myDouble = 3.14;
+        char myChar = 'A';
+        string myString = "Привіт";
+        bool myBool = true;
+
+        Console.WriteLine("Початкові значення:");
+        Console.WriteLine("int: " + myInt);
+        Console.WriteLine("double: " + myDouble);
+        Console.WriteLine("char: " + myChar);
+        Console.WriteLine("string: " + myString);
+        Console.WriteLine("bool: " + myBool);
+
+        myInt = 20;
+        myDouble = 7.77;
+        myChar = 'B';
+        myString = "Світ";
+        myBool = false;
+
+        Console.WriteLine("\nЗмінені значення:");
+        Console.WriteLine("int: " + myInt);
+        Console.WriteLine("double: " + myDouble);
+        Console.WriteLine("char: " + myChar);
+        Console.WriteLine("string: " + myString);
+        Console.WriteLine("bool: " + myBool);
+
+        double sum = myInt + myDouble;
+        Console.WriteLine("\nРезультат додавання int + double: " + sum);
+
+        Console.WriteLine("\nНатисніть будь-яку клавішу для завершення...");
+        Console.ReadKey();
+    }
+}
